@@ -71,25 +71,25 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `🚀 *_DARK-LITHU-MD Connected Successfully!_* ✅ 
 
---- *🦋🎉 _Welcome to DARK-LITHU-MD!_* 🎉🦋 
+--- *😈🎉 _Welcome to DARK-LITHU-MD!_* 🎉😈 
 
 *🔹 PREFIX:* ${prefix}
 
 *🔹 OWNER:* ${ownerNumber}
 
-*🔹 MADE BY:* Nadeen Poorna
+*🔹 MADE BY:* Lithum Helitha
 
 _Thank you for using_ *🕺DARK-LITHU-MD💗.*
 _We're here to make your experience enjoyable and seamless._
 _If you need any help or have questions, don't hesitate to ask._ 🌝💗
 
-*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VasctJ90LKZDfJ4JZp2d
+*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I
 
-*🖇️Subscribe My Youtube Channel✓💗 - :* www.youtube.com
+*🖇️Subscribe My Youtube Channel✓💗 - :* www.youtube.com/@DINKA_FILMS
 
 _*🕺Enjoy your time with us!😊*_
 
-*👨‍💻ᴅᴀʀᴋ-ʟɪᴛʜᴜ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʟɪᴛʜᴜᴍ ʜᴇʟɪᴛʜᴀ👨‍💻* `;
+*👨‍💻ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ👨‍💻* `;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/7exz93.png` }, caption: up })
 
@@ -164,19 +164,19 @@ if(senderNumber.includes("94726922553")){
 if(isReact) return
 m.react("👨🏻‍💻")
 }
-if(senderNumber.includes("94740671704")){
+if(senderNumber.includes("94779483535")){
 if(isReact) return
 m.react("👨🏼‍💻")
 }
-if(senderNumber.includes("94715140411")){
+if(senderNumber.includes("94775383340")){
 if(isReact) return
 m.react("👩🏽‍💻")
 }
-if(senderNumber.includes("94761920012")){
+if(senderNumber.includes("94753751559")){
 if(isReact) return
 m.react("👾")
 }
-if(senderNumber.includes("94")){
+if(senderNumber.includes("94771588807")){
 if(isReact) return
 m.react("👾")
 }
@@ -230,3 +230,4 @@ app.listen(port, () => console.log(`Nadeen md Server listening on port http://lo
 setTimeout(() => {
 connectToWA()
 }, 4000);  
+        
