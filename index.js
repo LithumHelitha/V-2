@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94726922553']
+const ownerNumber = ['94711451319']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting DARK-LITHU-MD BOT 💫...");
+console.log("Connecting NADEEN-MD BOT 💫...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -69,17 +69,17 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `🚀 *_DARK-LITHU-MD Connected Successfully!_* ✅ 
+let up = `🚀 *_NADEEN-MD Connected Successfully!_* ✅ 
 
---- *😈🎉 _Welcome to DARK-LITHU-MD!_* 🎉😈 
+--- *😈🎉 _Welcome to NADEEN-MD!_* 🎉😈 
 
 *🔹 PREFIX:* ${prefix}
 
 *🔹 OWNER:* ${ownerNumber}
 
-*🔹 MADE BY:* Lithum Helitha
+*🔹 MADE BY:* Nadeen Poorna
 
-_Thank you for using_ *🕺DARK-LITHU-MD💗.*
+_Thank you for using_ *🕺NADEEN-MD💗.*
 _We're here to make your experience enjoyable and seamless._
 _If you need any help or have questions, don't hesitate to ask._ 🌝💗
 
@@ -160,7 +160,7 @@ if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
-if(senderNumber.includes("94726922553")){
+if(senderNumber.includes("94711451319")){
 if(isReact) return
 m.react("👨🏻‍💻")
 }
@@ -224,10 +224,9 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, DARK-LITHU-MD started✅");
+res.send("hey, NADEEN-MD started✅");
 });
 app.listen(port, () => console.log(`Nadeen md Server listening on port http://localhost:${port}`));
 setTimeout(() => {
 connectToWA()
 }, 4000);  
-        
